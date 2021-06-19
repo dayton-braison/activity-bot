@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px 0 0 0;
+  font-family: "Share Tech", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+
+h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+button {
+  min-width: 190px;
+  width: 60%;
+  max-width: 370px;
+  margin: 25px auto;
+  padding: 14px 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #333;
+  color: #fff;
+  letter-spacing: 2px;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  transform: scale(1.06);
+}
+
+#activity {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 55px;
+}
